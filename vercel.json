@@ -8,6 +8,8 @@
         {
             "src": "/(.*)",
             "dest": "Django_project/wsgi.py"
+            
         }
-    ]
+    ],
+    "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
